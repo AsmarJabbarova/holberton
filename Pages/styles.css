@@ -1,0 +1,152 @@
+.logo img {
+  max-width: 60%;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .right {
+  margin: 0px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  flex: auto;
+}
+article {
+  flex: 2;
+  overflow-y: auto;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+article div {
+  padding: 0px 5% 0px 5%;
+}
+article::-webkit-scrollbar {
+  display: none;
+}
+aside {
+  flex: 1;
+  overflow-y: auto;
+  height: 800px;
+  margin-right: 3%;
+  padding-right: 8%;
+  padding-left: 5%;
+}
+aside h2 {
+  color: #f80002;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  /* height: 50vh; */
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+footer {
+  padding: 20px 50px;
+}
+
+.footer-distributed {
+  /* background: #666;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif; */
+  margin-top: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-distributed div {
+  display: flex;
+  gap: 300px;
+  align-items: baseline;
+}
+
+.footer-distributed a img {
+  width: 40%;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: #f80002;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+.footer-distributed .footer-company-name {
+  color: #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+.thumb {
+  display: flex;
+}
+.thumb h1 {
+  margin: 0px;
+}
+.thumb img {
+  margin-bottom: 15px;
+}
+
+.twitter-tweet {
+  width: 80%;
+}
+
+.card-sec {
+  gap: 50px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 5px;
+  background-color: rgba(72, 96, 182, 0.233);
+  border-radius: 10px;
+}
+.card img {
+  border-radius: 10px;
+  margin: 20px;
+}
+.card p {
+  margin-left: 20px;
+  color: #dd1bc37f;
+}
+.card-header p {
+  margin: 0px;
+  color: #0d06428b;
+}
+.card-header h5 {
+  margin: 0px;
+  color: #690303;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-sec a {
+  text-decoration: none;
+}
